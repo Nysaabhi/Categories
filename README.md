@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -143,19 +141,6 @@
             }
         }
 
-                body > h1:first-of-type:not(.heading) {
-          display: none !important;
-        }
-        
-        /* Alternative method if the above doesn't work */
-        .markdown-body h1:first-child {
-          display: none !important;
-        }
-        
-        /* If the number appears in a different container */
-        .position-relative h1:first-child {
-          display: none !important;
-        }
 
     </style>
 </head>
@@ -317,4 +302,3 @@
         }
     </script>
 </body>
-</html>
